@@ -1,0 +1,125 @@
+
+body{
+  background-color:honeydew;
+  margin: 0;
+
+}
+
+h1{
+  font-weight: 300;
+  font-family: fantasy;
+  color: #FF8A8A;
+
+
+}
+
+h2{
+  font-family: sans-serif, fantasy;
+  color: inherit;
+}
+
+nav{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 22px;
+  background-color: #6290C3;
+
+}
+
+a{
+  color: #ffffff;
+}
+
+
+.games-container{
+  width:800px;
+  margin:0px auto;
+}
+
+
+.container{
+  padding: 5px 5px 0px 0px;
+  background-color: #C2E7DA;
+
+
+}
+
+.container:hover{
+  color: #F9F9F9;
+}
+
+
+.after-box {
+  border: 3px solid red;
+}
+
+
+.card{
+  box-shadow: 0px 4px 8px 0px rgba(34,34,34,.25);
+  transition: 0.3s ease-in-out;
+  width: 140px;
+  border-radius: 5px;
+  display: inline-block;
+  max-height: 140;
+  margin: auto;
+  border: 3px solid #F9F9F9;
+}
+
+.es{
+  background-image: url("img/ESO.jpg");
+}
+
+.after-box {
+border: auto solid red;
+}
+
+
+.card:hover{
+  transform: scale(1.);
+
+}
+
+img{
+  height: 140px;
+  width:140px;
+  border-radius: 5px;
+
+}
+
+img.chick{
+  height: 200px;
+  width:200px;
+  border-radius: 5px;
+}
+
+footer{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 22px;
+  font-size-adjust: auto;
+  background-color: #223843;
+
+
+/* unvisited link (copied from w3 need to do my own)*/
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: ;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+h3{
+  flex-wrap: right;
+}
